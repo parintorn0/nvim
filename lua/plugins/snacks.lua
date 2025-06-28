@@ -39,17 +39,25 @@ return {
         { section = "startup" },
       },
     },
-    -- explorer = { enabled = true },
+    explorer = {
+      enabled = true,
+    },
     indent = {
       enabled = true,
     },
     -- input = { enabled = true },
-    -- picker = { enabled = true },
+    picker = {
+      enabled = true
+    },
     -- notifier = { enabled = true },
     -- quickfile = { enabled = true },
-    -- scope = { enabled = true },
+    scope = { enabled = true },
     -- scroll = { enabled = true },
-    -- statuscolumn = { enabled = true },
-    -- words = { enabled = true },
+    statuscolumn = {
+      enabled = true,
+    },
+    words = { enabled = true },
+    image = { enabled = true },
+    animate = { enabled = true },
   },
 }
